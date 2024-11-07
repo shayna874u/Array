@@ -58,6 +58,41 @@ int main() {
         }
     }
     printf("The lowest age in the array is: %d", lowestAge);
-   
-    return 0;
+   return 0;
 }
+-------------------------------------------------------------------------------------------
+int product_arr( int arr[]){
+    int i;
+    int result=1;
+    for(i=0;i<3;i++)
+    result=result*arr[i];
+    return result;
+}
+int main(){
+    int arr[]={20,30,10};
+    printf("%d\n",product_arr(arr));
+    return 0;}
+-------------------------------------------------------------------------------------------
+
+MULTIDIMENSIONAL ARRAY 
+
+int main() {
+  int matrix[2][3] = { {1, 4, 2}, {3, 6, 8} };
+  printf("%d", matrix[0][2]);
+ 
+  return 0;
+}
+-----------------------------------------------------------------------------------------
+int main() {
+  int matrix[2][3] = { {1, 4, 2}, {3, 6, 8} };
+
+  int i, j;
+  for (i = 0; i < 2; i++) {
+    for (j = 0; j < 3; j++) {
+      printf("%d\n", matrix[i][j]);
+    }
+  }
+  
+  return 0;
+}
+------------------------------------------------------------------------------------------
